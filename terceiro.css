@@ -1,0 +1,118 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(IMG/red_low_poly_background.jpg);
+    background-attachment: fixed;
+    color: #070000;
+}
+
+.local-filmes {
+    width: 500px;
+    margin: 150px auto 0;
+}
+
+
+
+.local-filmes ul {
+    list-style: none;
+}
+
+.local-filmes img {
+    height: 740px;
+    width: 700px;
+    float: left;
+    margin: 15px 15px 15px 15px;
+}
+
+.local-filmes ul li {
+    margin: 15px 0 15px;
+    display: inline-block;
+}
+
+.local-filmes ul li h1{
+    text-transform: uppercase;
+}
+
+#tt-princ {
+    text-align: center;
+    margin: 80px 0 40px 0;
+    text-transform: uppercase;
+}
+
+/*==========HEADER e SubMenu=========*/
+header {
+    width: 100%;
+    height: 80px;
+    background-color: #870000;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-transform: uppercase;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 1px 0.4px 10px rgb(0, 0, 0);
+}
+
+header h1 {
+    color: rgb(22, 22, 22);
+    margin: 0 290px 0 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*=====Menu DP=====*/
+.dp-menu ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.dp-menu ul ul {
+    background-color: #273bae;
+    border: #000 3px solid;
+    display: none;
+    left: 0;
+    position: absolute;
+    border-radius: 12px;
+}
+
+.dp-menu ul li {
+    display: inline;
+    position: relative;
+}
+
+.dp-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    transition: background .3s;
+}
+
+.dp-menu ul li a:hover {
+    background-color: #fff;
+    color: #ff1818;
+    border-radius: 10px;
+    box-shadow: 1px 1px 9px black;
+}
+
+.dp-menu ul li:hover ul {
+    display: block;
+}
+
+.dp-menu ul ul li a {
+    display: block;
+}
+
+/*========= OUTRAS COISAS ===========*/
+
+.icon-container span {
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 10px;
+}
